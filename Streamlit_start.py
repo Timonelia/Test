@@ -1,6 +1,7 @@
 import streamlit as st
 st.title("Streamlit Tutorial App")
 st.write("This is my new app")
+st.write("This is easy")
 button1 = st.button("Click Me")
 if button1:
     st.write("This is some text.")
